@@ -68,7 +68,7 @@ If no hour is received, your function should return an error message.
 
 ******************************************************************************/
 const userName = "";
-let hourOfDay;
+const hourOfDay = 0;
 
 function userGreeting(userName, hourOfDay) {
   if (hourOfDay < 0) {
@@ -233,7 +233,6 @@ Example2: (["Red", "Green", "Blue"], "Green")) --> ["Red", "Blue"]
 Example3: (["One", "Two", "Three"], "Four") --> ["One", "Two", "Three", "Four"]
 Example4: (["One", "Two", "Three"], "Two") --> ["One", "Three"]
 ******************************************************************************/
-
 let arrayParam = [];
 const stringParam = "";
 
